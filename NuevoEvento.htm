@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>México de Colores - Cartelera</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .column {
+            width: 48%;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+        th, td {
+            border: 1px solid #000;
+            text-align: center;
+            padding: 5px;
+        }
+        .highlight {
+            background-color: #ffeb3b;
+        }
+        h1 {
+            margin-bottom: 10px;
+        }
+        h2 {
+            margin-top: 20px;
+        }
+        footer {
+            margin-top: 20px;
+        }
+        .event-details, .event-info {
+            margin: 20px 0;
+        }
+        .multimedia-section {
+            margin-top: 40px; /* Espaciado superior */
+            text-align: center; /* Centrar el título */
+        }
+        .multimedia-container {
+            display: flex; /* Usar flexbox para el contenido multimedia */
+            justify-content: space-between; /* Espacio entre audio y video */
+            margin-top: 20px; /* Espaciado superior */
+        }
+        .multimedia-item {
+            width: 48%; /* Ancho de cada elemento multimedia */
+            text-align: center; /* Centrar el texto dentro de cada elemento */
+        }
+        .multimedia-item img {
+            width: 100%; /* Ajustar la imagen al ancho del contenedor */
+            height: 480px; /* Aumentamos la altura para hacerla más grande */
+            object-fit: cover; /* Mantener la proporción de la imagen */
+            border-radius: 8px; /* Bordes redondeados */
+            margin-bottom: 10px; /* Espaciado inferior */
+        }
+        iframe {
+            width: 100%; /* Ancho del iframe */
+            height: 480px; /* Ajustar la altura del iframe para que coincida con la imagen */
+            border-radius: 8px; /* Bordes redondeados */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>México de Colores</h1>
+        <p>Fecha: 25 de septiembre de 2024</p>
+    </header>
+    <div class="images">
+        <img src="https://www.uv.mx/prensa/files/2019/09/020919-Diplomados-DGDC-1.jpg" alt="Danza Mexicana 1">
+        <img src="https://www.trespm.mx/media/k2/items/cache/c541c628cbe6b3f786d44e978087b3b2_XL.jpg" alt="Danza Mexicana 2">
+    </div>
+    <main>
+        <div class="container">
+            <div class="column">
+                <section class="event-details">
+                    <h2>Detalles del Evento</h2>
+                    <p>Miércoles 25 de septiembre, 2024</p>
+                    <p>19 horas | Archivo General de la Nación</p>
+                    <p>Presentación estelar de la Compañía de danza</p>
+                    <p>México de Colores</p>
+                    <p>Aforo: 120 personas</p>
+                    <p>Entrada libre</p>
+                    <p>#CarteleraCdMx</p>
+                    <p>Noche de Museos</p>
+                </section>
+
+                <section>
+                    <h2>Descripción</h2>
+                    <p>Una obra que celebra la diversidad cultural de México a través de la danza y la música.</p>
+                </section>
+
+                <section>
+                    <h2>Funciones</h2>
+                    <ul>
+                        <li>Hora: 18:00</li>
+                        <li>Hora: 20:30</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Ubicación</h2>
+                    <p>Teatro Principal, Ciudad de México.</p>
+                </section>
+
+            </div>
+
+            <div class="column">
+                <section class="event-info">
+                    <h2>Información del Evento</h2>
+                    <p>Duración: 01:00</p>
+                    <p>Edad: A partir de 1 año</p>
+                    <p>Accesibilidad: (Información no proporcionada)</p>
+                    <p>Costos:</p>
+                    <ul>
+                        <li>General: Gratuito</li>
+                    </ul>
+                    <p>Evento publicado por: Secretaría de Cultura - Gobierno CDMX</p>
+                    <h2>Boletos</h2>
+                    <p>Disponibles en la taquilla del teatro o en línea.</p>
+                </section>
+
+                <section>
+                    <h2>Calendario de Septiembre 2024</h2>
+                    <table>
+                        <tr>
+                            <th>Dom</th>
+                            <th>Lun</th>
+                            <th>Mar</th>
+                            <th>Mié</th>
+                            <th>Jue</th>
+                            <th>Vie</th>
+                            <th>Sáb</th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>7</td>
+                            <td>8</td>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>12</td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td>14</td>
+                            <td>15</td>
+                            <td>16</td>
+                            <td>17</td>
+                            <td>18</td>
+                            <td>19</td>
+                        </tr>
+                        <tr>
+                            <td>20</td>
+                            <td>21</td>
+                            <td>22</td>
+                            <td>23</td>
+                            <td>24</td>
+                            <td class="highlight">25</td>
+                            <td>26</td>
+                        </tr>
+                        <tr>
+                            <td>27</td>
+                            <td>28</td>
+                            <td>29</td>
+                            <td>30</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </section>
+            </div>
+        </div>
+
+        <section class="multimedia-section">
+            <h2>Contenido Multimedia</h2>
+            <div class="multimedia-container">
+                <div class="multimedia-item">
+                    <h3>Audio Relacionado</h3>
+                    <a href="https://www.facebook.com/ArchivoGeneraldelaNacion/?locale=es_LA" target="_blank">
+                        <img src="https://www.mexicodestinos.com/blog/wp-content/uploads/2014/02/ballet-folklorico-de-mexico.jpg" alt="Descripción de la imagen" style="width: 100%; height: 480px; object-fit: cover; margin-bottom: 10px;">
+                    </a>
+                    <audio controls>
+                        <source src="audio/mexico_de_colores.mp3" type="audio/mpeg">
+                        Tu navegador no soporta el elemento de audio.
+                    </audio>
+                    <p>El Jarabe Tapatío es uno de los bailes folklóricos más emblemáticos de México, originario de la región de Jalisco. Conocido como el "Baile del Sombrero Mexicano", este baile es una celebración de la cultura mexicana y es famoso por su ritmo alegre y vibrante.".</p>
+                </div>
+                <div class="multimedia-item">
+                    <h3>Video Complementario</h3>
+                    <iframe src="https://www.youtube.com/embed/dq7bJ-xP2EE" frameborder="0" allowfullscreen></iframe>
+                    <p>Un vistazo a la presentación de la Compañía de danza. "La Bamba" es un famoso baile folklórico originario del estado de Veracruz, México, que combina elementos de danza, música y tradición cultural. Este baile se caracteriza por su ritmo alegre y enérgico, acompañado por marimbas, guitarras y otros instrumentos típicos de la región.</p>
+                    <p>"La Bamba" es un famoso baile folklórico originario del estado de Veracruz, México, que combina elementos de danza, música y tradición cultural. Este baile se caracteriza por su ritmo alegre y enérgico, acompañado por marimbas, guitarras y otros instrumentos típicos de la región.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p><a href="https://cartelera.cdmx.gob.mx/26689/25-09-2024/mxico-de-colores?return_to=%2Fbusqueda%3Ftipo%3DTEATRO%26pagina%3D1" style="color: white; text-decoration: none;">Para más información, visita nuestro sitio web o contáctanos.</a></p>
+    </footer>
+</body>
+</html>
